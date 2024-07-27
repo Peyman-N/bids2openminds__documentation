@@ -1,22 +1,19 @@
-Welcome to Lumache's documentation!
-===================================
+.. bids2openminds documentation master file, created by
+   sphinx-quickstart on Thu Jul 25 15:21:10 2024.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+bids2openminds documentation
+============================
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+A tool to generate `openMINDS metadata <https://openminds-documentation.readthedocs.io/en/latest/>`_ from `BIDS datasets <https://bids.neuroimaging.io/>`_
 
 .. note::
+   This project is under active development, please try the first alpha release and send us feedback by creating an issue.
 
-   This project is under active development.
 
-Contents
---------
+We are curentlly suporting linux, windows and mac os.
 
 .. toctree::
-
+   installation
    usage
-   api
